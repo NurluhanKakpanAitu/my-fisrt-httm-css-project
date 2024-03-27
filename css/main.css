@@ -1,0 +1,164 @@
+@import "./reset.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    color: #000;
+    font-size: 14px;
+}
+.container{
+    max-width: 1230px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.header{
+    background: #F1F1F1;
+    padding-top: 46px;
+}
+
+.header-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 76px;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 32px;
+    color: #000;
+}
+
+.nav-list{
+    display: flex;
+    column-gap: 50px;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.nav-link{
+    color: #000;
+}
+.nav-link.active{
+    color: #606060;
+}
+
+.header-content{
+    margin-top: 124px;
+    max-width: 500px;
+}
+.header-row{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+
+.header-heading{
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 44px;
+}
+
+.header-content p{
+    line-height: 2;
+}
+
+.services{
+    padding: 90px 0;
+}
+
+.services-row{
+    display: flex;
+    column-gap: 30px;
+}
+
+.service-card{
+
+}
+
+.service-card-img{
+    margin-bottom: 30px;
+}
+
+.service-card-title{
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    text-transform: uppercase;
+} 
+
+.service-card p{
+    line-height: 2;
+}
+
+.projects {
+    padding: 90px 0;
+    background-color: #F1F1F1;
+}
+
+.projects-title{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.projects-title-heading{
+    font-weight: 600;
+    font-size: 30px;
+}
+.project{
+    text-align: center;
+}
+
+.project-image{
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.project-title{
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.project-title a{
+    color: #000;
+}
+
+
+.contacts{
+    padding: 90px 0;
+    text-align: center;
+}
+
+.contacts-title{
+    margin-bottom: 40px;
+    font-weight: 600;
+    font-size: 24px;
+}
+
+.contacts-content{
+    margin-bottom: 40px;
+    font-size: 18px;
+}
+
+.contacts-button{
+    margin-bottom: 80px;
+}
+
+.btn{
+    display: inline-block;
+    padding: 7px 22px;
+    background-color: #070707;
+    border-radius: 30px;
+    font-size: 18px;
+    color: #fff;
+}
+
+.contacts-social{
+    display: flex;
+    justify-content: center;
+    column-gap: 60px;
+    align-items: center;
+    margin-bottom: 40px;
+}
