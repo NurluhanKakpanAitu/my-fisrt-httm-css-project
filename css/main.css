@@ -43,6 +43,10 @@ body{
 .nav-link.active{
     color: #606060;
 }
+.nav-button{
+    display: none;
+}
+
 
 .header-content{
     margin-top: 124px;
